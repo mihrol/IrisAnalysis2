@@ -1,3 +1,7 @@
+#Ignore renv
+renv/
+.Rproj
+
 # History files
 .Rhistory
 .Rapp.history
