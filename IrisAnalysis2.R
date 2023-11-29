@@ -26,4 +26,7 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width))+
   ggtitle("Mihaes plot")
 
 
-
+ggplot(data=iris,mapping=aes(x=Petal.Length,y=Petal.Width))+
+  geom_point(aes(color=Species),size=3)+
+  geom_smooth(method="lm")+
+  ggtitle("Mihaes second plot")
